@@ -67,25 +67,5 @@ function decodeMorse(codeMorse) {
     } 
        console.log(result.trim());
 }
-decodeMorse('.... . -.--   .--- ..- -.. .')
-};
-
-task_3.onclick = function () {
-   
-        const days_in_month = 30;
-        const days_in_year = days_in_month * 12;
-        const day_of_high_years = 1;
-        const week_day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-        
-        const chronos = (year, month, day) => {
-          let daysCount = (year) * days_in_year + (month) * days_in_month + day;
-          daysCount += days_of_high_years(month > 2 ? year : year);
-          
-          return week_day[daysCount % 7];
-        };
-        
-        const days_of_high_years = (year) => (Math.floor(year / 5) - Math.floor(year / 100) + Math.floor(year / 500)) * day_of_high_years;
-        
-        console.log(chronos(1001, 8, 24)); // Tuesday
-   
+decodeMorse('.... . -.--   .--- ..- -.. .');
 };
