@@ -50,6 +50,10 @@ helper.pageIndex(-10); //should == -1
 
 helper.pageIndex(-10); //should == -1 */
 
+
+//=================================================
+//===================TASK 2========================
+//=================================================
 function declareWinner(fighter1, fighter2, firstAttacker) {
     while (fighter1.health > 0 && fighter2.health > 0) { //
       fighter2.health -= fighter1.damagePerAttack;       // мочилово
