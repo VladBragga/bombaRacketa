@@ -138,7 +138,10 @@ task_3.onclick = function () {
       }
       return 'YES';
     }
+    console.log([25, 50, 25, 50, 25, 25, 50, 100, 25]);
     console.log(tickets([25, 50, 25, 50, 25, 25, 50, 100, 25]));
+    console.log([100, 50, 25]);
     console.log(tickets([100, 50, 25]));
+    console.log([25, 25, 50, 50, 25]);
     console.log(tickets([25, 25, 50, 50, 25]));
 }

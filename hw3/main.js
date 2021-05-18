@@ -43,6 +43,7 @@ task_3.onclick = function () {
 
   let arr = [['XXX', 3], ['XXXXX', 6], ['XXXXXX', 9]],
      result = [arr.length];
+     console.log(arr);
      result.push(0);
   let need = 4, agent, chairs_here, difference;
   const reducer = (acc, cur) => acc + cur;

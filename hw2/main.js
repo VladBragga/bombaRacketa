@@ -88,6 +88,7 @@ butt2.onclick = function(){
             alert("Введите ещё раз)");
             mas[index] = prompt("Введите возраст "+(index+1), "");  
             };
+            console.log(mas[index]);
         }
     
     for(let i = 0; i < n; i++){
@@ -97,7 +98,8 @@ butt2.onclick = function(){
            }
        }
     }
-    document.getElementById('otvet2').innerHTML=" Наибольший возраст = "+ mas[0]+ ", "+mas[1];
+    console.log(mas[0]+ ", "+mas[1]);
+    document.getElementById('otvet2').innerHTML=" Наибольший возраст = "+ mas[0] + " ,  "+ mas[1];
     }
     task2();
 };
